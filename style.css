@@ -1,0 +1,103 @@
+html, body {
+  margin: 0;
+}
+
+body{
+  background-image: url(./archie-binamira.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 30px, 100%;
+}
+.option{
+  list-style: none;
+  display: inline;
+}
+.center{
+  margin-top: 139px;
+  height: 100vh;
+  display: flex;
+  place-content: start center;
+  text-align: center;
+}
+
+.titulo{
+  margin: 0;
+  font-size: 50px;
+}
+.mensaje{
+  font-size: 30px;
+  margin: 0;
+}
+
+.boton1{
+  font-size: 22px;
+  margin-top: 72px;
+  border-radius: 12px;
+  border: 0;
+  width: 103px;
+  height: 50px;
+  background-color: #26e215;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+.boton2{
+  margin-left: 112px;
+  border-radius: 12px;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0000);
+  color: black;
+  border: solid 3px #26e215;
+  width: 103px;
+  height: 50px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+.logo{
+  margin-left: 10px;
+  margin-top: 5px;
+
+}
+.lista{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+  justify-content: space-around;
+  align-items: center;
+  color: #345B63;
+}
+
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: #345B63;
+}
+.option:hover{
+  border-bottom:solid 3px #54E346;
+  cursor: pointer;
+}
+
+.boton1:hover{
+  border:solid 1px #345B63;
+  background-color: none;
+  cursor: pointer;
+}
+
+.boton2:hover{
+  color: white;
+  cursor: pointer;
+}
